@@ -1,0 +1,81 @@
+salesforce-data-cloud-power-tools/
+├── manifest.json
+├── popup/
+│   ├── popup.html
+│   ├── popup.js
+│   └── popup.css
+├── options/
+│   ├── options.html
+│   ├── options.js
+│   └── options.css
+├── background/
+│   ├── background.js
+│   ├── api_service.js
+│   ├── s3_service.js
+│   ├── query_service.js
+│   └── etl_service.js
+├── content_scripts/
+│   ├── api_name_display.js
+│   ├── inject_custom_ui.js
+│   ├── data_explorer.js
+│   └── mapping_visualizer.js
+├── components/
+│   ├── App.js
+│   ├── DataExplorer.js
+│   ├── APIIntegrationDashboard.js
+│   ├── S3BucketIntegration.js
+│   ├── DataMappingVisualization.js
+│   ├── QueryBuilder.js
+│   ├── DataLineageTracker.js
+│   ├── DocumentationGenerator.js
+│   ├── ReportingEngine.js
+│   ├── DataQualityMonitor.js
+│   ├── UserAccessManagement.js
+│   ├── ChangeTrackingAuditing.js
+│   └── ETLJobManager.js
+├── services/
+│   ├── salesforce_api.js
+│   ├── aws_s3.js
+│   ├── data_cloud_query.js
+│   └── auth_service.js
+├── utils/
+│   ├── data_transformer.js
+│   ├── query_optimizer.js
+│   └── error_handler.js
+├── lib/
+│   ├── aws-sdk.min.js
+│   ├── react.production.min.js
+│   ├── react-dom.production.min.js
+│   ├── redux.min.js
+│   ├── react-redux.min.js
+│   ├── d3.min.js
+│   └── codemirror.min.js
+├── assets/
+│   ├── styles/
+│   │   ├── main.css
+│   │   └── content.css
+│   └── images/
+│       └── logo.png
+├── icons/
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
+├── tests/
+│   ├── unit/
+│   │   ├── components.test.js
+│   │   ├── services.test.js
+│   │   └── utils.test.js
+│   └── integration/
+│       └── extension.test.js
+├── docs/
+│   ├── API.md
+│   └── CONTRIBUTING.md
+├── .gitignore
+├── package.json
+├── webpack.config.js
+├── babel.config.js
+├── jest.config.js
+├── .eslintrc.js
+├── .prettierrc
+├── README.md
+└── LICENSE.md
